@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.raisul {
+  clear: both;
+}
+
+/* top header css part start  */
+
+header {
+  background-color: #f5f7fa;
+  border-bottom: 1px solid lightgray;
+  padding-top: 10px;
+}
+
+.email span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  color: #506a85;
+  padding-left: 3px;
+}
+
+.email i {
+  color: #506a85;
+  font-size: 13px;
+}
+
+.mobile {
+  padding-left: 28px;
+}
+
+.mobile i {
+  color: #506a85;
+  font-size: 13px;
+}
+
+.mobile span {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 400px;
+  color: #506a85;
+  padding-left: 3px;
+}
+
+.social-media ul li {
+  padding: 0 22px;
+}
+
+.social-media ul li a {
+  color: #506a85;
+  font-size: 15px;
+}
+
+/* top header css part end  */
+
+/* nab bar css part start  */
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-link {
+  color: #506a85;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-collapse .search {
+  border: none;
+  color: #506a85;
+}
+
+/* nab bar css part end  */
+
+/* banner part css part start */
+.banner-main {
+  background: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-oly {
+  padding: 150px;
+  background-color: rgba(0, 0, 0, 0.021);
+}
+
+.banner-con {
+  text-align: center;
+}
+
+.banner-con h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 78px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.banner-con p {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+
+.banner-con a {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00bc9c;
+  padding: 8px 15px;
+}
+
+/* banner part css part end */
+
+/* about part css code start  */
+
+#about {
+  margin: 100px 0;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-title h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  color: #506a85;
+  margin-bottom: 40px;
+}
+
+.about-title p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #73879c;
+  text-align: center;
+}
+
+.about-sub-all {
+  margin-top: 70px;
+}
+
+.about-sub {
+}
+
+.about-icon {
+  position: relative;
+}
+
+.about-icon i {
+  font-size: 50px;
+  color: #00bc9c;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.about-con h6 {
+  color: #506a85;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.about-con p {
+  color: #73879c;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* about part css code end */
+
+/* our latest works part css start */
+#work {
+  background-color: #f2f5f7;
+  padding: 100px;
+}
+
+.work-con {
+  text-align: center;
+}
+
+.work-con h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  color: #506a85;
+}
+
+.work-con p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #73879c;
+  text-align: center;
+}
+
+.work-img {
+  background-color: white;
+  text-align: center;
+}
+
+.work-img h6 {
+  color: #506a85;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.work-img p {
+  color: #73879c;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.big-work {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.radio-button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.radio-button input {
+  background-color: gray;
+  margin: 0 5px;
+}
+/* our latest works part css end */
